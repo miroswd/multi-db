@@ -1,0 +1,8 @@
+{
+  "name": "multi-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/miroswd/multi-db.git",
+  "author": "miroswd <altamirsantos93@hotmail.com>",
+  "license": "MIT"
+}
