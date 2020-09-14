@@ -69,6 +69,7 @@ class ContextStrategy{
   delete(id){
     return this._database.delete(id)
   }
+
 }
 
 const contextMongo = new ContextStrategy(new MongoDB());
