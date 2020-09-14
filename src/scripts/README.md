@@ -1,0 +1,1 @@
+## Arquivos dos Banco de Dados em geral
