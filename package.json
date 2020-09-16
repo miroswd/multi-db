@@ -4,5 +4,17 @@
   "main": "index.js",
   "repository": "https://github.com/miroswd/multi-db.git",
   "author": "miroswd <altamirsantos93@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test":"mocha src/tests/*.js -R nyan",
+    "test:watch":"mocha src/tests*.js -w"
+  },
+  "dependencies": {
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  }
 }
